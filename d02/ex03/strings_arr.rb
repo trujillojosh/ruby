@@ -11,9 +11,8 @@ else
 		i += 1
 	end
 	if c > 0
-		while c > 0
+		for j in c do
 			print "z"
-			c -= 1
 		end
 		print "\n"
 	else
